@@ -61,7 +61,7 @@ nav {
 }
 
 header {
-  background: url("/assets/blurrybg.jpg") center/cover no-repeat;
+  background: url("assets/blurrybg.jpg") center/cover no-repeat;
   color: #004080cc;
   text-align: center;
   padding: 60px 20px;
