@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profil UKM Bahasa</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="title">
+          <img class="logoukm" src="/assets/logoukm.png" alt="logo ukm" />
+          <h3>UKM BAHASA</h3>
+        </div>
+
+        <div class="nav-links">
+          <a href="#profil">Profil</a>
+          <a href="#biodata">Biodata</a>
+          <a href="#pendaftaran">Pendaftaran</a>
+          <a href="#media">Media</a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <h1>UKM Bahasa</h1>
+      <p>Grasp the World by Language✊🌍</p>
+    </header>
+
+    <section id="profil">
+      <h2>Profil UKM Bahasa</h2>
+      <p>
+        UKM Bahasa adalah unit kegiatan mahasiswa yang fokus pada pengembangan
+        kemampuan bahasa asing dan bahasa Indonesia.
+      </p>
+    </section>
+
+    <section id="biodata">
+      <h2>Biodata Organisasi</h2>
+      <table>
+        <tr>
+          <th>Nama Organisasi</th>
+          <td>UKM Bahasa</td>
+        </tr>
+        <tr>
+          <th>Tahun Berdiri</th>
+          <td>2003</td>
+        </tr>
+        <tr>
+          <th>Pembina</th>
+          <td>Amir khalik</td>
+        </tr>
+        <tr>
+          <th>Jumlah Anggota</th>
+          <td>120 Mahasiswa</td>
+        </tr>
+        <tr>
+          <th>Kegiatan Utama</th>
+          <td>English Course, Public Speaking, Lomba Pidato Bahasa Mandarin</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="pendaftaran">
+      <h2>Form Pendaftaran Anggota Baru</h2>
+      <div class="form-container">
+        <form>
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" name="nama" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="nim">NIM:</label>
+          <input
+            type="text"
+            id="nim"
+            name="nim"
+            pattern="[0-9]{8,12}"
+            placeholder="Hanya angka (8 digit)"
+            required
+          />
+
+          <label for="jurusan">Jurusan:</label>
+          <input type="text" id="jurusan" name="jurusan" required />
+
+          <label for="gender">Jenis Kelamin:</label>
+          <select id="gender" name="gender" required>
+            <option value="">-- Pilih --</option>
+            <option value="laki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+          </select>
+
+          <button type="submit">Daftar</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="media">
+      <h2>Media Organisasi</h2>
+
+      <h3>Video Dokumentasi</h3>
+      <video
+        controls
+        src="/assets/videoukmcut.mp4"
+        width="500"
+        height="300"
+      ></video>
+      <h3>Lokasi Kampus</h3>
+      <p>Sekret UKM Bahasa PNUP</p>
+
+      <img
+        src="/assets/map.png"
+        alt="Sekret UKM bahasa PNUP"
+        style="
+          width: 100%;
+          max-width: 600px;
+          border: 1px solid #ccc;
+          border-radius: 6px;
+        "
+      />
+
+      <div class="maps-button-container">
+        <a
+          href="https://maps.app.goo.gl/eL9FbTec9t75XtSm8"
+          target="_blank"
+          class="maps-button"
+        >
+          Buka di Google Maps
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 UKM Bahasa | Politeknik Negeri Ujung Pandang</p>
+    </footer>
+  </body>
+</html>
